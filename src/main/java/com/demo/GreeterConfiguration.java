@@ -12,7 +12,7 @@ public class GreeterConfiguration {
     private DatabaseConfiguration databaseConfig;
 
     @Bean
-    @Scope(value = "prototype")
+    @Scope(value = "prototype") //what are the scopes and what is the difference?
     public Greeter greeter() {
         return new Greeter();
     }
