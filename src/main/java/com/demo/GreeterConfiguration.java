@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Scope;
 @Configuration
 public class GreeterConfiguration {
 
-    //shall we change it? Is the constructor injection better? 
+    //shall we change it? Is the constructor injection better?
     @Autowired
     private DatabaseConfiguration databaseConfig;
 
